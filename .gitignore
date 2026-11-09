@@ -1,16 +1,31 @@
+
 # Python cache
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
 
-# Jupyter cache
-.ipynb_checkpoints/
-notebook/cache/
-
-# Environment
+# Python environments
 .venv/
 venv/
 env/
 
-# Temporary files
+# Jupyter
+.ipynb_checkpoints/
+notebook/cache/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Build files
+build/
+dist/
+*.egg-info/
+
+# Logs and temporary files
 *.log
+
+# Operating system files
 .DS_Store
+Thumbs.db
