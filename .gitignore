@@ -1,0 +1,16 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter cache
+.ipynb_checkpoints/
+notebook/cache/
+
+# Environment
+.venv/
+venv/
+env/
+
+# Temporary files
+*.log
+.DS_Store
